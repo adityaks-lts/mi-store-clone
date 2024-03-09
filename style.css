@@ -7,6 +7,7 @@ p{
     margin: 0;
 }
 #top-head{
+    font-size: 12px;
     background-color: white;
     width: 100%;
     height: auto;
@@ -26,7 +27,6 @@ p{
     gap: 35px;
     justify-content: start;
     align-items: center;
-    font-size: 14px;
 }
 #top-right{
     display: flex;
@@ -37,13 +37,29 @@ p{
 }
 #mid{
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
     background-image: url('https://i03.appmifile.com/313_operator_in/05/06/2023/da85ab08b8be256a4ac91a43c02ad695.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 75%;
     height: 20vh;
+    padding: 12px 0px 12px 35px;
+    box-sizing: border-box;
+}
+#mid-head{
+    font-weight: bolder;
+    margin-bottom: 6px;
+}
+#buy-but{
+    
+    color: white;
+    width: 100;
+    background-color: black;
+    border-radius: 7px;
+    margin-top: 6px;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
 }
 #main-space{
     margin-top: 20px;
@@ -51,6 +67,8 @@ p{
 
 .row{
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width:75%;
     height: auto;
     display: flex;
@@ -66,7 +84,7 @@ p{
     background-color: white;
     font-weight: bold;
     font-size: 12px;
-    padding: 10px;
+    padding: 15px;
     box-sizing: border-box;
 
 }
@@ -81,6 +99,10 @@ p{
     height: 100%;
 }
 .pr-img{
+    height: inherit;
+    width: 100%;
     display: flex;
+    gap: 50px;
+    /* justify-content: end; */
     align-items: center;
 }
